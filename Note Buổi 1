@@ -1,13 +1,13 @@
 1. Internet là hệ thống các mạng máy tính kết nối với nhau
 
 2. ISO model
-•	Application: phần giao diện
-•	Presentation: mã hóa dữ liệu được nhập
-•	Session: phiên hoạt động để lưu trên host
-•	Transport: kết nối các protocol
-•	Network: mạng, IP
-•	Data link: địa chỉ phần cứng
-•	Physical: dây
+- Application: phần giao diện
+- Presentation: mã hóa dữ liệu được nhập
+- Session: phiên hoạt động để lưu trên host
+- Transport: kết nối các protocol
+- Network: mạng, IP
+- Data link: địa chỉ phần cứng
+- Physical: dây
 
 3. DNS (Domain Name System)
 Domain: tên miền
@@ -21,17 +21,18 @@ Browser → OS (no cache?) → DNS resolver (no cache?) → ISP (Internet Servic
 -> Lúc đăng ký domain thì nó sẽ có list ANS
 
 4. HTTP (HyperText Transfer Protocol)
-•	kiểu dữ liệu gửi: client text
-•	nằm ở lớp Application 
-•	được xây dựng trên nền tảng TCP và DNS
-•	(1) máy tính gửi SYN cho server -> (2) server phản hồi SYN-ACK lại -> (3) gửi thêm cho server ACK => đã có kết nối 2 chiều, có thể gửi data (TCP - tạo kết nối 2 chiều, nằm ở lớp Transport)
-•	GET/HTTP/1.1 (request của mình)
+- kiểu dữ liệu gửi: client text
+- nằm ở lớp Application 
+- được xây dựng trên nền tảng TCP và DNS
+- (1) máy tính gửi SYN cho server -> (2) server phản hồi SYN-ACK lại -> (3) gửi thêm cho server ACK => đã có kết nối 2 chiều, có thể gửi data (TCP - tạo kết nối 2 chiều, nằm ở lớp Transport)
+- GET/HTTP/1.1 (request của mình)
 *Crud: GET, PUT, POST, DELETE
-•	HTTP/1.1 200 OK (response của server)
+- HTTP/1.1 200 OK (response của server)
 *HTTP/1.1 : phiên bản
-200 OK : status
-	
+ 200 OK : status
+
 *Protocol (thủ tục): đối với con người đó là các bước để bắt đầu cuộc trò chuyện
 
 5. HTTPS (HyperText Transfer Protocol Secure)
 - thiết lập TCP -> thêm bước mã hóa client text thành ngôn ngữ chỉ 2 máy gửi và nhận mới đọc được (TLS setup) -> không thể đọc request và response
+
